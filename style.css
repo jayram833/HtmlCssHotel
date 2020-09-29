@@ -1,0 +1,47 @@
+body{
+    min-height: 150vh;
+    background-color: darkgray;
+}
+
+nav ul{
+    float: right;
+    margin: 0px;
+    padding: 35px 10px 15px 30px;
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+a:hover{
+    background-color: cornsilk;
+}
+
+
+#navbar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+#navimg{
+    width: 20%;
+    height: 80px;
+}
+
+h1{
+    padding-top: 80px;
+}
+
+.main{
+    
+}

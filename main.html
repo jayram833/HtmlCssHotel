@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sample.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <nav id="navbar">
+            <ul id="lst">
+                <li><a href="#start">Home</a></li>
+                <li><a href="#mid">Gallery</a></li>
+                <li><a href="#end">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img src="the-best-top-10-indian-dishes.jpg" class="mainimg" alt="Dish Image">
+    <div id="start"></div>
+    <div id="title">
+        <p>Hotel JP</p>
+    </div>
+    <h1>Our Special Menu</h1>
+    
+        
+        <ul id="fooditems">
+        
+            <li><a href="#chai">Chai</a></li>
+            <li><a href="#coffee">Coffee</a></li>
+            <li><a href="#vadapav">Vada-Pav</a></li>
+            <li><a href="#misalpav">Missal Pav</a></li>
+            <li><a href="#daltadka">Daltadka</a></li>
+            <li><a href="#paneermasala">Paneer Masala</a></li>
+            <li><a href="#palakpaneer">Palak Paneer</a></li>
+            <li><a href="#shevbhaji">Shev Bhaji</a></li>
+            <li><a href="#roti">Roti</a></li>
+            
+        </ul>
+    </div>
+    <div id="mid">
+        <p>Have a Look at our Dishes and More</p>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="tea.jpg" alt="Nature" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="vadapav.jpg" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="misal-pav.jpg" alt="Mountains" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="paneer-masala.jpg" alt="Lights" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="roti1.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="coffee.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+        </div>
+    </div>
+        
+    <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+    </div>
+
+    <div id="end">
+        <h1>Who we are?</h1>
+        <div class="para">
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                content here', making it look like readable English. 
+                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, 
+                and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
+                Various versions have evolved over the years, sometimes by accident, 
+                sometimes on purpose (injected humour and the like).
+            </p>
+        </div>
+    </div>
+    <div class="contact-us">
+        <h2>Contact Us</h2>
+    </div>
+    <div class="social">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </div>
+
+    <div class="copy">
+        <p>© Copyrights 2020 Hotel JP. All rights reserved.</p>
+    </div>
+</body>
+</html>
